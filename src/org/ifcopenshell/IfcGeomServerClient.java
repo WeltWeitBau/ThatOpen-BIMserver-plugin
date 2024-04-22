@@ -130,7 +130,7 @@ public class IfcGeomServerClient implements AutoCloseable {
 		}
 	}
 
-	private static String getExecutableExtension() {
+	protected static String getExecutableExtension() {
 		final String os = System.getProperty("os.name").toLowerCase();
 		if (os.contains("windows")) {
 			return ".exe";
@@ -806,7 +806,7 @@ public class IfcGeomServerClient implements AutoCloseable {
 		return buildDateTime;
 	}
 	
-	public String getPlatform() throws RenderEngineException {
+	public static String getPlatform() throws RenderEngineException {
 		String platform = "unknown";
 		String os = getOs();
 		
