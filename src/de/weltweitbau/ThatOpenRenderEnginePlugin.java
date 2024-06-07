@@ -27,7 +27,7 @@ public class ThatOpenRenderEnginePlugin extends IfcOpenShellEnginePlugin {
 	
 	private static final String DEFAULT_VERSION = "0.0.54-0";
 	private static final String VERSION_SETTING = "branch";
-	private static final String DEFAULT_COMMIT_SHA = "d693e793";
+	private static final String DEFAULT_COMMIT_SHA = "d226204";
 	private static final String COMMIT_SHA_SETTING = "commitsha";
 	private static final String CALCULATE_QUANTITIES_SETTING = "calculatequantities";
 	private static final String APPLY_LAYER_SETS = "applylayersets";
